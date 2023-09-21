@@ -1,83 +1,112 @@
-body{
-    width: 100vw;
-    height: 100vh;
+
+body {
+
     margin: 0;
     padding: 0;
-    
-    background-image: linear-gradient(#6077f880, rgba(1, 1, 45, 0.5)), url(https://tse2.mm.bing.net/th?id=OIP.J3DX72SvcE2Iz7Fs0IBjhQHaD4&pid=Api&P=0&h=180);
+
+    background: radial-gradient(rgb(36, 138, 240), rgb(1, 1, 8));;
+
+    height: 100vh;
+    width: 100vw;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    overflow-x: hidden;
+
 }
 
-#container{
+.pantallaCentral{
+    height: 20em;
+    width: 30em;
+
+    background-color: rgb(48, 46, 46);
+
+    border: 0.7em solid black;
+    border-radius: 1em 1em 0 0;
+    
+}
+
+
+
+#contenedor{
+    height: 20em;
     width: 50em;
-    height: 20em;
+
     display: flex;
-   justify-content: center;
-   align-items: center;
-   
-}
-
-
-#ladoIzquierdo{
-    width: 10em;
-    height: 20em;
-   
-    border: 0.5em solid black;
-    background-color: blue;
-    border-radius: 35% 0 0 35%;
-    margin-bottom: 2em;
-}
-
-.pantallaNegra{
-    width: 30em;
-    height: 20em;
+    justify-content: space-around;
+    align-items: center;
     
-    border: 2em solid black;
-    background-color: rgb(35, 34, 34);
-    margin-bottom: 2em;
 }
- 
-#pantalla{
+
+#ladoIzquierdo {
+
+    height: 20em;
+    width: 10em;
+    background-color: blue;
+    border: 0.7em solid black;
+    border-radius: 30% 0 0 30%;
+
+
+}
+
+#botonIzquierdo {
+
+    height: 3em;
+    width: 3em;
+
+    margin-top: 2em;
+    margin-left: 4em;
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+#botonDerecho{
+
+    height: 3em;
+    width: 3em;
+    margin-top: 9em;
+    margin-left: 4em;
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+#botonApagado{
+
+    height: 1.5em;
+    width: 1.5em;
+    margin-top: 2.5em;
+    margin-left: 2em;
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+
+#screen {
     width: 30em;
     height: 20em;
+
     background-size: cover;
+    border: 0.7 solid black;
+    border-radius: 1em 1em 0 0;
 }
 
 #ladoDerecho{
-    width: 10em;
+
     height: 20em;
-    
-    border: 0.5em solid black;
+    width: 10em;
+  
     background-color: red;
-    border-radius: 0% 35% 35% 0%;
-    margin-bottom: 2em;
-}
+    border: 0.7em solid black;
+    border-radius: 0 30% 30% 0;
 
-#botonizquierdo{
-    height: 0.5em;
-    width: 0.5em;
-    
-    position: relative;
-    z-index: 3;
-
+   //* height: 1.5em;
+    width: 1.5em;
+    margin-top: 0.3em;
+    margin-left: 0.5em;
     border-radius: 50%;
-    
-    background-color: black;
-
-}
-
-#botonderecho{
-    height: 0.5em;
-    width: 0.5em;
-
-    border-radius: 50%;
-    
-    background-color: black;
-
+    background-color: black;*//
 }
