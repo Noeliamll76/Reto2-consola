@@ -8,22 +8,12 @@ switch (e.target.id){
     case 'botonDerecho':
        pantalla.style.backgroundImage = "url('imagenes/tetrisJuego.jfif')"; break;
     case 'botonApagado':
-      pantalla.style.backgroundColor = "pantallaCentral"; break;
-    default :
+      pantalla.style.backgroundImage = "url('imagenes/Nintendo-Switch.jpg"; break;
+    
+      default:
        }
     
 
 
 
-//
- //  if(e.target.id === 'botonIzquierdo'){
- //       pantalla.style.backgroundImage = "url('imagenes/TetrisCabecera.jpg')";
-//   } 
- //  else if (e.target.id === 'botonDerecho'){
- //       pantalla.style.backgroundImage = "url('imagenes/tetrisJuego.jfif')";
- //  }
- //  else if (e.target.id === 'botonApagado'){
- //       pantalla.style.backgroundColor = "black";}
-
-//
 });
