@@ -13,6 +13,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -20,7 +22,6 @@ body {
     height: 18em;
     width: 34em;
     background-color: rgb(48, 46, 46);
-
     
     border: 2em solid black;
     border-radius: 1em 1em 0 0;
@@ -28,23 +29,21 @@ body {
 }
 
 
-
 #contenedor{
     height: 22em;
     width: 50em;
-
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-
-   
+      
 }
 
 #ladoIzquierdo {
 
     height: 22em;
     width: 8em;
-    background-color: blue;
+    background-color: #00aeff;
     border: 0.2em solid black;
     border-radius: 30% 0 0 30%;
 
@@ -53,38 +52,42 @@ body {
 
 #botonIzquierdo {
 
-    height: 3em;
-    width: 3em;
+    height: 3.5em;
+    width: 3.5em;
 
-    margin-top: 2em;
-    margin-left: 4em;
+    margin-top: 4em;
+    margin-left: 2.3em;
     border-radius: 50%;
 
-    background-color: black;
+    
+    box-shadow: black 0px -23px 25px 0px inset, rgb(37, 37, 37) 0px -36px 30px 0px inset, grey 0px -79px 40px 0px inset, rgb(37, 37, 37) 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 #botonDerecho{
 
-    height: 3em;
-    width: 3em;
-    margin-top: 9em;
-    margin-left: 4em;
+    height: 3.5em;
+    width: 3.5em;
+    
+    position: absolute;
+    margin-top: 9.5em;
+    margin-left: 2.2em;
     border-radius: 50%;
-
-    background-color: black;
+    
+    box-shadow: black 0px -23px 25px 0px inset, rgb(37, 37, 37) 0px -36px 30px 0px inset, grey 0px -79px 40px 0px inset, rgb(37, 37, 37) 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
 }
 
 #botonApagado{
 
     height: 1.5em;
     width: 1.5em;
-    margin-top: 2.5em;
+    margin-top: 15em;
     margin-left: 2em;
     border-radius: 50%;
 
-    background-color: black;
+    box-shadow: black 0px -23px 25px 0px inset, rgb(37, 37, 37) 0px -36px 30px 0px inset, grey 0px -79px 40px 0px inset, rgb(37, 37, 37) 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ 
 }
-
 
 #screen {
     width: 30em;
@@ -93,19 +96,52 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-      border-radius: 1em 1em 0 0;
+    border-radius: 1em 1em 0 0;
 
     box-shadow: rgb(0, 0, 0) 5px 5px, rgb(0,0,0) 10px 10px;
 }
 
 #ladoDerecho{
-
     height: 22em;
     width: 8em;
-  
-    background-color: red;
+    
+    background-color: hwb(9 4% 5%);
     border: 0.2em solid black;
     border-radius: 0 30% 30% 0;
 
     box-shadow: rgb(0, 0, 0) 5px 5px, rgb(0,0,0) 10px 10px;
+}
+
+.botonesPequeños{
+    height: 1.6em;
+    width: 1.6em;
+    border-radius: 50%;
+
+    color: white;
+    background-color: black;
+
+}
+
+.botonArriba{
+    position: fixed;
+    margin-top: 2.5em;
+    margin-left: 3em;
+}
+
+.botonMedioIzquierda{
+    position: fixed;
+    margin-top: 4.2em;
+    margin-left: 1.4em;
+}
+
+.botonMedioDerecha{
+    position: fixed;
+    margin-top: 4.2em;
+    margin-left: 4.7em;
+}
+
+.botonAbajo{
+    position: fixed;
+    margin-top: 5.9em;
+    margin-left: 3em;
 }
