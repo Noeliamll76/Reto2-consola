@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -50,8 +49,8 @@ body {
 
     border-radius: 30% 0 0 30%;
 
-    box-shadow: black 0.5em 0.5em;
-    
+    box-shadow: black 0.5em 0.5em, black 50px 50px 80px;
+  
 }
 
 #ladoDerecho{
@@ -63,14 +62,14 @@ body {
     border: 0.2em solid black;
     border-radius: 0 30% 30% 0;
 
-    box-shadow: black 0.5em 0.5em;
+    box-shadow: black 0.5em 0.5em, black 50px 50px 80px;
     
 }
 
 #botonIzquierdo {
 
-    height: 3.5em;
-    width: 3.5em;
+    height: 4em;
+    width: 4em;
 
     margin-top: 4em;
     margin-left: 2.7em;
@@ -82,8 +81,8 @@ body {
 
 #botonDerecho{
 
-    height: 3.5em;
-    width: 3.5em;
+    height: 4em;
+    width: 4em;
     
     position: fixed;
     margin-top: 12em;
@@ -100,12 +99,11 @@ body {
     width: 1.5em;
 
     position: fixed;
-    margin-top: 17em;
+    margin-top: 19em;
     margin-left: 2em;
     border-radius: 50%;
 
-    box-shadow: black 0px -23px 25px 0px inset, rgb(37, 37, 37) 0px -36px 30px 0px inset, grey 0px -79px 40px 0px inset, rgb(37, 37, 37) 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
- 
+    background-color: black; 
 }
 
 #screen {
@@ -117,39 +115,73 @@ body {
     background-size: cover;
     border-radius: 1em 1em 0 0;
 
-    box-shadow: black 0.5em 0.5em;
+    /*box-shadow: black 0.7em 0.7em;*/
+    box-shadow: yellow 0px 0px 10px;
+   
 }
 
+
+.botonMenos{
+    height: 0.5em;
+    width: 0.1em;
+
+    position: fixed;
+    margin-top: 2em;
+    margin-left: 7em;
+    
+    background-color: black;
+}
+
+
+.botonMas{
+    height: 0.1em;
+    width: 0.1em;
+
+    position: fixed;
+    font-size: large;
+
+    margin-top: -0.5em;
+    margin-left: 0.4em;
+  }
+
 .botonesPequeños{
-    height: 1.6em;
-    width: 1.6em;
+    height: 1.9em;
+    width: 1.9em;
     border-radius: 50%;
+    position: fixed;
 
     color: white;
     background-color: black;
-
 }
 
 .botonArriba{
-    position: fixed;
-    margin-top: 2.5em;
-    margin-left: 3.3em;
+    margin-top: 3.5em;
+    margin-left: 3.5em;
 }
 
 .botonMedioIzquierda{
-    position: fixed;
-    margin-top: 4.2em;
+    margin-top: 5.5em;
     margin-left: 1.6em;
 }
 
 .botonMedioDerecha{
-    position: fixed;
-    margin-top: 4.2em;
-    margin-left: 5em;
+    margin-top: 5.5em;
+    margin-left: 5.5em;
 }
 
 .botonAbajo{
-    position: fixed;
-    margin-top: 5.9em;
-    margin-left: 3.3em;
+     margin-top: 7.5em;
+    margin-left: 3.5em;
 }
+
+.botonCuadrado{
+    height: 1.5em;
+    width: 1.5em;
+
+    position: fixed;
+    margin-top: 18em;
+    margin-left: -0.5em;
+    
+    background-color: black;
+}
+
