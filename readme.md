@@ -1,16 +1,16 @@
 ## _2º Proyecto sobre una réplica de una cónsola tipo Gameboy o similar (semana 2)_"
 
 ​
-<img src="./imagenes/consola.jfif">
+<img src="./imagenes/consola.png">
 
 <p text-align="justify">Desarrollada como parte del proceso de aprendizaje para el desarrollo de páginas web del Bootcamp de Full Stack Developer de Geekshubs Academy, en Valencia</p>
 
 ___
 ​<br>
 <h5> Tecnologías utilizadas</h5>
-<img src="./IMAGENES/iconos1.jfif">
-<img src="./IMAGENES/iconoJs.jfif">
-<img src="./imagenes/iconoVisual.jfif">
+<img src="./IMAGENES/iconosCSS-HTML.png">
+<img src="./IMAGENES/iconoJS.png">
+<img src="./imagenes/iconoVSC.png">
 ​
 <p>HTML5, CSS3 y JavaScript.</p>
 ​
@@ -26,8 +26,10 @@ ___
 - [⚖️ Licencia y Copyright](#licencia-y-copyright)
 <br>
 ​
-___
+
+
 ### Nintendo Switch
+
 ​Esta consola desarrollada por NINTENDO, salió a la venta en  marzo de 2017.
 
 Se puede utilizar como consola de sobremesa con la unidad principal insertada en una estación de acoplamiento para conectarla con un televisor, y además, puede ser extraída de la base y utilizada de forma similar a una tableta a través de su pantalla táctil o colocada sobre una superficie gracias a su soporte plástico integrado siendo así visible por varios jugadores.
