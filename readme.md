@@ -59,8 +59,8 @@ Se compone de:
 
 ### Observaciones: 
 ​
-- �� Por ahora no consigo que sea responsive.
-
+- �� Me gustaría añadirle más opciones como un vídeo corto emulando un juego, pero todavía me queda mucho por aprender.
+Me ha costado mucho el volver a una imagen de apagado despues de poner varias imágenes, ya que tenía que vaciar primero la variable que contenía la anterior imagen que se superponía al backgroundColor en Js.
 
 
 ​___
