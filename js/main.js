@@ -11,7 +11,8 @@ document.addEventListener("click", (e) => {
     switch (e.target.id) {
 
       case 'botonIzquierdo':
-        pantalla.style.backgroundImage = "url('./imagenes/CabeceraMario.jpg')"; break;
+        pantalla.style.backgroundImage = "url('./imagenes/CabeceraMario.jpg')"; 
+        break;
 
       case 'botonDerecho':
         pantalla.style.backgroundImage = "url('./imagenes/MarioJugando.jpg')";

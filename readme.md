@@ -14,7 +14,7 @@ ___
 ​
 <p>HTML5, CSS3 y JavaScript.</p>
 ​
-[Enlace Proyecto gameboy - Noelia Marcos](PONER ENLACE GITHUB)
+[Enlace Proyecto Reto 2 Consola - Noelia Marcos](https://github.com/Noeliamll76/Reto2-consola.git)
 ​
 
 ___
@@ -53,13 +53,21 @@ Se compone de:
 - **ESTILOS.CSS**: En este archivo he utilizado varios tipos de _shadow_ para conseguir el efecto de profundidad, relieve y efecto de pantalla encendida de la consola.
 
 - **MAIN.JS**: Contiene el código necesario para el control de las diferentes pantallas.
-​
+
+Los botones que están activados son:
+- El boton de encendido y apagado. 
+    Cuando se enciende la pantalla aparece una imagen de encendido de Nintendo.
+    Cuando se apaga, aparece una pantalla en gris oscuro.
+- El pulsador izquierdo que al activarse, aparece una imagen de presentación del juego de Mario Bros.
+- El pulsador derecho que al activarse, aparece una imagen en pleno juego.
+​Estos dos pulsadores solo se activan si el boton de encendido está activado.
+
 
 ​___
 
 ### Observaciones: 
 ​
-- �� Me gustaría añadirle más opciones como un vídeo corto emulando un juego, pero todavía me queda mucho por aprender.
+-  Me gustaría añadirle más opciones como un vídeo corto emulando un juego, pero todavía me queda mucho por aprender.
 Me ha costado mucho el volver a una imagen de apagado despues de poner varias imágenes, ya que tenía que vaciar primero la variable que contenía la anterior imagen que se superponía al backgroundColor en Js.
 
 
