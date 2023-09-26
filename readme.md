@@ -1,7 +1,7 @@
 ## _2º Proyecto sobre una réplica de una cónsola tipo Gameboy o similar (semana 2)_"
 
 ​
-<img src="./imagenes/consola.png">
+<img src="./IMAGENES/Consola.png">
 
 <p text-align="justify">Desarrollada como parte del proceso de aprendizaje para el desarrollo de páginas web del Bootcamp de Full Stack Developer de Geekshubs Academy, en Valencia</p>
 
@@ -10,7 +10,7 @@ ___
 <h5> Tecnologías utilizadas</h5>
 <img src="./IMAGENES/iconosCSS-HTML.png">
 <img src="./IMAGENES/iconoJS.png">
-<img src="./imagenes/iconoVSC.png">
+<img src="./IMAGENES/iconoVSC.png">
 ​
 <p>HTML5, CSS3 y JavaScript.</p>
 ​
